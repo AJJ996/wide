@@ -65,6 +65,12 @@
   color: #f2f2f2;
 }
 
+#sign-btn:hover{
+  background-color: transparent;
+  color: #2f30cf;
+  transition: 0.4s;
+}
+
 #log-btn{
   text-decoration: none;
   border: 1px solid #2f30cf;
@@ -73,3 +79,79 @@
   border-radius: 20px;
   color: #2f30cf;
 }
+
+#log-btn:hover{
+  background-color: #2f30cf;
+  color: #f2f2f2;
+  transition: 0.4s;
+}
+
+/* main */
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.main-title{
+  color: #f2f2f2;
+  font-family: 'Roboto Slab';
+  font-size: 70px;
+}
+
+.main-title-2{
+  color: #f2f2f2;
+  font-family: 'Roboto Slab';
+  font-size: 65px;
+}
+
+.main-buttons{
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+}
+
+.main-btn{
+  width: 200px;
+}
+
+/* end */
+
+@media (max-width: 810px){
+  .main{
+    padding-top: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-title{
+    font-size: 55px;
+  }
+
+  .main-title-2{
+    font-size: 50px;
+  }
+
+  .main-btn{
+    width: 120px;
+  }
+
+  #sign-btn{
+    width: 70px;
+    float: right;
+  }
+
+  #log-btn{
+    width: 65px;
+    float: right;
+  }
+}
+
+
+/* END */
+/* ======= */
